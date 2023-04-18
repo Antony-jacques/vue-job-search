@@ -1,5 +1,4 @@
-import { describe, it, expect } from "vitest";
-import { evenOrOdd } from "@/playground";
+import { evenOrOdd, multiply } from "@/playground";
 
 // describe allow to describe what we are testing. It is optional -> organisation ...
 
@@ -20,6 +19,12 @@ describe("basic math", () => {
       it("indicates the number is odd", () => {
         expect(evenOrOdd(5)).toBe("Odd");
       });
+    });
+  });
+
+  describe("multiply", () => {
+    it("multiply two numbers together", () => {
+      expect(multiply(3, 5)).toBe(15);
     });
   });
 });
