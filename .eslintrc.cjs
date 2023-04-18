@@ -9,7 +9,13 @@ module.exports = {
     "@vue/eslint-config-prettier",
   ],
   rules: {
-    "prettier/prettier": 0,
+    // "prettier/prettier": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+      },
+    ],
   },
   parserOptions: {
     ecmaVersion: "latest",
