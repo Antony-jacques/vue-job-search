@@ -5,3 +5,5 @@ export const evenOrOdd = (number) => {
     return "Odd";
   }
 };
+
+export const multiply = (a, b) => a * b;
