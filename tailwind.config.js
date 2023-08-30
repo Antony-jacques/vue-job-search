@@ -14,6 +14,9 @@ module.exports = {
         "brand-blue-1": "#1967d2", // add custom class
         "brand-green-1": "#137333", // add custom class
       },
+      boxShadow: {
+        blue: "0 0 3px 3px #4285f4",
+      },
     },
   },
   plugins: [],
